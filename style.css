@@ -130,3 +130,61 @@ h3 {
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .hero {
+        height: 100vh;
+    }
+
+    .projects img {
+        width: 200px;
+    }
+
+    .aboutSection img {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    section {
+        height: auto;
+    }
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        margin-top: 30px;
+    }
+
+    .project img {
+        flex-direction: column;
+    }
+
+    .aboutSection img {
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+    }
+
+    .aboutSection{
+        padding: 2rem;
+
+    } 
+}
+
+@media only screen and (max-width: 490px) {
+
+    .aboutSection {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+}
